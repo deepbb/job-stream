@@ -1,0 +1,120 @@
+.accounting {
+    background-color: #DFDFFC;
+    width: 97%;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+}
+.account-wrapper {
+    /* width: 70%; */
+    margin: auto;
+    display: flex;
+}
+.account-text1 {
+    flex: 4.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.account-text2{
+    flex: 4.5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.account-image{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.image-holder {
+    background-color: #A2BAD8;
+    height: 350px;
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 90px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.image-holder1 {
+    background-color: #B1D6D9;
+    height: 350px;
+    width: 270px;
+    border-radius: 15px;
+    position: absolute;
+    top: 70px;
+    z-index: 888;
+}
+.image-holder2 {
+    background-color: #E1AB9E;
+    height: 350px;
+    width: 230px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+    z-index: 777;
+}
+.image-holder3 {
+    background-color: #B1D6D9;
+    height: 350px;
+    width: 200px;
+    border-radius: 15px;
+    position: absolute;
+    top: 33px;
+    z-index: 666;
+}
+.account-logo {
+    align-self:flex-start;
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+}
+.accountig-text {
+    font-family: Poppins;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+.job-text{
+    font-family: Poppins;
+    font-size: 9px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    align-self: flex-start;
+    margin-left: 55px;
+    margin-top: 0;
+}
+.category-heading {
+    margin-left: 14%;
+    font-size: 25px;
+    color: #464646;
+    font-family: Poppins;
+}
+.category-heading-second {
+    font-size: 18px;
+    color: #006379;
+    font-family: Poppins;
+}
+.category-heading-account {
+    font-size: 22px;
+    color: #006379;
+    font-family: Poppins;
+}
+.account-btn {
+    background-color: #000000;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    color: #FFFFFF;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}

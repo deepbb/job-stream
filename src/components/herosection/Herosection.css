@@ -1,0 +1,64 @@
+.hero-section {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading {
+    font-family: Poppins;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.sub-heading {
+    font-family: Poppins;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.hero-image {
+    flex: 6;
+    margin-top: 100px;
+}
+
+.hero-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+
+}
+.start-btn {
+    height: 30px;
+    width: 150px;
+    background-color: #006379;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 14px;
+}
+.contact-btn {
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    color: #006379;
+}

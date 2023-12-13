@@ -1,95 +1,39 @@
+"use client"
+import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image'
 import styles from './page.module.css'
-
+import Navbar from '@/components/navbar/Navbar'
+import Homescroll from '@/components/homeScroll/Homescroll'
+import Herosection from '@/components/herosection/Herosection'
+import Topcompany from '@/components/topCompanies/Topcompany';
+import VideoInterview from '@/components/videointerview/VideoInterview';
+import Hire from '@/components/hire/Hire';
+import Accounting from '@/components/accounting/Accounting';
+import Card from '@/components/cards/Card';
+import Realtime from '@/components/realtime/Realtime';
+import Joinus from '@/components/joinus/Joinus';
+import Explore from '@/components/explore/Explore';
+import Footer from '@/components/footer/Footer';
 export default function Home() {
+
+  const sliderRef = useRef(null);
+  const scrollAmount = 100;
+  
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <div>
+       <Navbar />
+       <Homescroll />
+       <Herosection />
+       <Topcompany />
+       <VideoInterview />
+       <Hire />
+       <Accounting />
+       <Card />
+       <Realtime />
+       <Joinus />
+       <Explore />
+       <Footer />
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   )
 }

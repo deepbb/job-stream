@@ -1,0 +1,85 @@
+.realtime {
+    background-color: #EEF2FF;
+    width: 97%;
+    margin: 10px auto 10px auto;
+    display: flex;
+    border: 0.5px solid #AAAAAA;
+    border-radius: 10px;
+
+}
+.realtime-text {
+    flex: 6;
+}
+.realtime-title{
+    margin: 20px auto 10px 70px;
+}
+.realtime-title p {
+    font-size: 12px;
+    font-family: Poppins;
+}
+.realtime-heading {
+    font-size: 22px;
+    font-family: Poppins;
+}
+.verticle-line {
+    width: 1px;
+    border: 1px solid #C5C5C5;
+    height: 360px;
+    margin-top: 20px;
+}
+.pointing-line {
+    width: 1px;
+    border: 1px solid #C5C5C5;
+    height: 30px;
+
+}
+.pointing-line1 {
+    width: 1px;
+    border: 1px solid #C5C5C5;
+    height: 30px;
+    margin-top: 80px;
+}
+.pointing-line2 {
+    width: 1px;
+    border: 1px solid #C5C5C5;
+    height: 30px;
+    margin-top: 75px;
+}
+.pointing-line3 {
+    width: 1px;
+    border: 1px solid #C5C5C5;
+    height: 30px;
+    margin-top: 80px;
+}
+.realtime-containers {
+    display: flex;
+    margin: 20px auto 10px 70px;
+}
+.realtime-details {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.realtime-logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.realtime-para {
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 0;
+    color: #000000;
+    font-weight: 500;
+
+}
+.realtime-image {
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}

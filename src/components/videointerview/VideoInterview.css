@@ -1,0 +1,38 @@
+.videos {
+    background-color: #F7F5EB;
+    height: 500px;
+    display: flex;
+    width: 97%;
+    margin: 20px auto 20px auto;
+    border: 0.5px solid #AAAAAA;
+    border-radius: 5px;
+}
+.video-text {
+    flex: 6;
+    margin-left: 60px;
+}
+.video-heading {
+    color: #464646;
+    font-size: 25px;
+    font-family: Poppins;
+}
+.main-heading {
+    color: #464646;
+    font-size: 55px;
+    font-family: Poppins;
+}
+.video-paragraph{
+    color: #000000;
+    font-size: 13px;
+    text-align: left;
+    width: 90%;
+    line-height: 20px;
+    font-family: Poppins;
+    margin-bottom: 20px;
+}
+.video-image {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
