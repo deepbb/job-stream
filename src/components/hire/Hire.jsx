@@ -7,7 +7,7 @@ export default function Hire() {
     <div className='hire'>
         <div className='hire-details'>
                  <h3 className='hire-heading'>Get Hire in 5 Easy Steps</h3>
-                 <p className='hire-paragraph'>Get the leading hiring platform, that's proven to enhance every steps of hiring process </p>
+                 <p className='hire-paragraph'>Get the leading hiring platform, that&apos;s proven to enhance every steps of hiring process </p>
                  <div className='hiring-steps'>
                         <div className='hiring-sections'>
                             <div className='account-wrap'>
@@ -22,7 +22,7 @@ export default function Hire() {
                         </div>
                         <div className='hiring-sections'>
                         <div className='section-para-new'>
-                                 <p className='account-section'>It allows job seekers to create profile that showcase their skills,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>   
+                                 <p className='account-section'>It allows job seekers to create profile that showcase their skills,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s </p>   
                             </div>
                         </div>
                         <div className='hiring-sections-wrap'>

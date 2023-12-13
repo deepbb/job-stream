@@ -10,7 +10,7 @@ export default function Footer() {
                     <p className='job-stream-text'>Job Streamers</p>
                     <div className='horizobtal-line'></div>
                     <p className='footer-para'>Job streamers is a powerfull tool for both job seekers and 
-                    employers in todays's competitive job market. Its user-friendly interface and advanced features
+                    employers in todays&apos;s competitive job market. Its user-friendly interface and advanced features
                     make it a popular choice for those who want to simplify job search process and fine the best talent.
                     </p>
                 </div>
