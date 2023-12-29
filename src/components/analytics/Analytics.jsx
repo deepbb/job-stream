@@ -118,7 +118,7 @@ export default function Analytics() {
                 <div className='search-logo-container'>
                     <div className='logo-wraps'>
                         <div className='logo-holder'>
-                            <Image src="/google.png" width={20} height={20} />
+                            <Image src="/google.png" width={20} height={20} alt='' />
                         </div>
                         <div className='text-wraps'>
                             <p className='company'>Google</p>
@@ -133,7 +133,7 @@ export default function Analytics() {
                 <div className='search-logo-container'>
                     <div className='logo-wraps'>
                         <div className='logo-holder'>
-                            <Image src="/google.png" width={20} height={20} />
+                            <Image src="/google.png" width={20} height={20} alt='' />
                         </div>
                         <div className='text-wraps'>
                             <p className='company'>Google</p>
@@ -148,7 +148,7 @@ export default function Analytics() {
                 <div className='search-logo-container'>
                     <div className='logo-wraps'>
                         <div className='logo-holder'>
-                            <Image src="/google.png" width={20} height={20} />
+                            <Image src="/google.png" width={20} height={20} alt='' />
                         </div>
                         <div className='text-wraps'>
                             <p className='company'>Google</p>
@@ -163,7 +163,7 @@ export default function Analytics() {
                 <div className='search-logo-container'>
                     <div className='logo-wraps'>
                         <div className='logo-holder'>
-                            <Image src="/google.png" width={20} height={20} />
+                            <Image src="/google.png" width={20} height={20} alt=''/>
                         </div>
                         <div className='text-wraps'>
                             <p className='company'>Google</p>
@@ -178,7 +178,7 @@ export default function Analytics() {
                 <div className='search-logo-container'>
                     <div className='logo-wraps'>
                         <div className='logo-holder'>
-                            <Image src="/google.png" width={20} height={20} />
+                            <Image src="/google.png" width={20} height={20} alt='' />
                         </div>
                         <div className='text-wraps'>
                             <p className='company'>Google</p>
@@ -222,14 +222,14 @@ export default function Analytics() {
        </div>
        <div className='company-cards'>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' alt='' />
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
@@ -239,121 +239,121 @@ export default function Analytics() {
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' alt=''/>
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' aria-label=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain'alt='' />
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' alt=''/>
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain'alt='' />
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain'alt='' />
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain' alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain'alt='' />
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' alt='' />
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
@@ -370,138 +370,138 @@ export default function Analytics() {
        </div>
        <div className='company-cards'>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain'alt='' />
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain'alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' alt='' />
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain' alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' alt='' />
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain' alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' alt='' />
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' alt='' />
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain'alt='' />
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' alt=''/>
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt='' />
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>
           <div className='company-live'>
-            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' />
+            <Image src="/wiproimg.png" width={250} height={120} objectFit='contain' alt=''/>
             <div className='btn-container'>
             <button className='vide-btn'>
-            <Image src="/video.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/video.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#006379'}}>Video-intro</p>
             </button>
             <button className='join-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Join Live</p>
             </button>
             </div>
             <button className='career-btn'>
-            <Image src="/live.svg" width={15} height={15} objectFit='contain' />
+            <Image src="/live.svg" width={15} height={15} objectFit='contain' alt=''/>
             <p style={{fontSize:10,fontFamily:'Poppins',color:'#FFB929'}}>Career Consultation</p>
             </button>
           </div>

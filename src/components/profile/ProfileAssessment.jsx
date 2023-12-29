@@ -6,7 +6,7 @@ export default function ProfileAssessment() {
   return (
     <div className='profile-assess'>
     <div className='wrap-image'>
-         <Image src="/background.png" width={1290} height={450} className='profile-image' />
+         <Image src="/background.png" width={1290} height={450} className='profile-image' alt='' />
          <div className='position'>
             <div className='profile-wraper'>
                 <div className='profile-image'>

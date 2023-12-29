@@ -99,7 +99,7 @@ export default function Interview() {
                     </div>
                     <div className='question-box'>
                         <span style={{fontFamily:'Lato',fontSize:13,fontWeight:'bold'}}>Pradeep</span>
-                        <span style={{fontFamily:'Lato',fontSize:13,fontWeight:'bold',marginTop:5}}>Q1 . What's your goal in next 5 years</span>
+                        <span style={{fontFamily:'Lato',fontSize:13,fontWeight:'bold',marginTop:5}}>Q1 . What&apos;s your goal in next 5 years</span>
                     </div>
                 </div>
                 <div className='interview-person-new'>
