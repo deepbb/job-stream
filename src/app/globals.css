@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 
 
 html,
 body {
   background-color: #EEEEEE;
   margin: 0;
+}
+.analytics-container {
+  display: flex;
+  background-color: #FFFFFF;
+  width: 97%;
+  margin: auto;
+}
+.filter-wrap {
+  flex: 2;
+}
+.analytic-wrap {
+  flex: 10;
+  margin-top: 10px;
 }
 
 /* body {

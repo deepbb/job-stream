@@ -21,7 +21,7 @@ export default function Home() {
   
   return (
     <div>
-       <Navbar />
+      <Navbar />
        <Homescroll />
        <Herosection />
        <Topcompany />

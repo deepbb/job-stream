@@ -1,0 +1,70 @@
+.filters {
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.filter-headings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.filter-headings-text {
+    font-family: Poppins;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size:22px;
+    font-weight: 600;
+
+}
+.filter-headings-text2 {
+    font-family: Poppins;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size:15px;
+    font-weight: 600;
+    color: #006379;
+
+}
+.job-types {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding-bottom: 5px;
+}
+.filter-headings-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.filter-headings-text-card {
+    font-family: Poppins;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size:12px;
+    font-weight: 600;
+}
+.filter-headings-text-card2 {
+    font-family: Poppins;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size:12px;
+    font-weight: 600;
+    color: #006379;
+}
+
+
+input[type=checkbox] {
+  accent-color: orange;
+}
+.check-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.topping {
+  display: flex;
+  align-items: center;
+}

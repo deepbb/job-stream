@@ -1,7 +1,10 @@
 .navbar {
     margin: 0;
-    height: 55px;
+    height: 40px;
     margin-top: 20px;
+}
+.innterview {
+    background-color: #FFFFFF;
 }
 .navbar-wraper {
     display: flex;
@@ -21,6 +24,7 @@
     font-family: Poppins;
     font-size: 14px;
     border-radius: 27px;
+    height: 40px;
 }
 .list-items {
     cursor: pointer;
@@ -32,6 +36,7 @@
     border-radius: 18px;
     color: #000000;
     opacity: 1;
+    text-decoration: none;
 }
 .list-items:hover {
     background-color: #FF7F17;
@@ -42,6 +47,7 @@
     align-items: center;
     justify-content: flex-end;
     margin-right: 30px;
+    height: 35px;
 
 }
 .btn-login {
