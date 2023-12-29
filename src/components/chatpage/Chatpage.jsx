@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import "./Chat.css"
+import "./chat.css"
 
 const ChatPage = ({ socket, username, roomId }) => {
   const [currentMsg, setCurrentMsg] = useState("");
