@@ -4,13 +4,56 @@ import "./Interview.css"
 import Navbar from '@/components/navbar/Navbar'
 import Image from 'next/image'
 import Link from 'next/link'
+import ChatPage from '@/components/chatpage/Chatpage'
+import { io } from "socket.io-client";
 
 export default function Interview() {
     const [isOpen, setIsOpen] = useState(false);
+    const [isMenuopen,setisMenuOpen] = useState(false)
+ const [showChat, setShowChat] = useState(false);
+  const [userName, setUserName] = useState("");
+  const [showSpinner, setShowSpinner] = useState(false);
+  const [roomId, setroomId] = useState("");
+  const [menuName,setMenuname] = useState("Chat")
+
+  var socket;
+  socket = io("http://localhost:3001");
+
+  console.log(userName);
+
+  const handleJoin = () => {
+    if (userName !== "" && roomId !== "") {
+      console.log(userName, "userName", roomId, "roomId");
+      socket.emit("join_room", roomId);
+      setShowSpinner(true);
+      // You can remove this setTimeout and add your own logic
+      setTimeout(() => {
+        setShowChat(true);
+        setShowSpinner(false);
+      }, 4000);
+    } else {
+      alert("Please fill in Username and Room Id");
+    }
+  };
+  
+
+    const [activeContainer, setActiveContainer] = useState('container1');
+
+    const changeContainer = (containerId,value) => {
+      setActiveContainer(containerId);
+      console.log(value);
+      setMenuname(value)
+    };
 
     const toggleDropdown = () => {
       setIsOpen(!isOpen);
+      console.log("clecked");
     };
+
+    const handleOpen = ()=> {
+        console.log("clicked");
+        setisMenuOpen(!isMenuopen)
+    }
   return (
     <div className='interview'>
         <div className='navbar-interview'>
@@ -210,16 +253,73 @@ export default function Interview() {
                 <div style={{display:'flex',alignItems:'center'}}>
                <div className='waiting'>
                <Image src="/cross.png" width={30} height={30} alt='' />
-               <span style={{fontFamily:'Lato',fontSize:16,marginLeft:10,color:"white"}}>Waiting Queue</span>
-               <Image src="/chevron-white.png" width={25} height={30} alt='' style={{marginLeft:10}} />
+               <span style={{fontFamily:'Lato',fontSize:16,marginLeft:10,color:"white"}}>{menuName}</span>
+               <Image src="/chevron-white.png" width={25} height={30} alt='' style={{marginLeft:10}} onClick={handleOpen} />
                </div>
                <Image src="/menu.png" width={20} height={20} alt='' style={{marginLeft:10}} />
                </div>
+               <div className='dropdown-menu'>
+                {isMenuopen && (
+                   <div className="dropdown">
+                   <button className='dropdown-btn' onClick={(e) => changeContainer('container1',e.target.textContent)}>Chat</button>
+                   <button className='dropdown-btn' onClick={(e) => changeContainer('container2',e.target.textContent)}>People on call</button>
+                   <button className='dropdown-btn' onClick={(e) => changeContainer('container3',e.target.textContent)}>Decesion panel</button>
+                   <button className='dropdown-btn' onClick={(e) => changeContainer('container4',e.target.textContent)}>Pre assessment QNA</button>
+                 </div>
+                     )}
+                </div>
                <div style={{margin:10}}>
-               <Image src="/side.png" width={300} height={500} alt='' />
+               <div>
+
+<div id="container1" className={`container ${activeContainer === 'container1' ? 'active' : ''}`}>
+      <div
+        className='main_div'
+        style={{ display: showChat ? "none" : "" }}
+      >
+        <input
+          className='main_input'
+          type="text"
+          placeholder="Username"
+          onChange={(e) => setUserName(e.target.value)}
+          disabled={showSpinner}
+        />
+        <input
+          className='main_input'
+          type="text"
+          placeholder="room id"
+          onChange={(e) => setroomId(e.target.value)}
+          disabled={showSpinner}
+        />
+        <button className='main_button' onClick={() => handleJoin()}>
+          {!showSpinner ? "Join" : <div className='loading_spinner'></div>}
+        </button>
+      </div>
+      <div style={{ display: !showChat ? "none" : "" }}>
+        <ChatPage socket={socket} roomId={roomId} username={userName} />
+      </div>
+    
+</div>
+
+<div id="container2" className={`container ${activeContainer === 'container2' ? 'active' : ''}`}>
+  Container 2
+</div>
+
+<div id="container3" className={`container ${activeContainer === 'container3' ? 'active' : ''}`}>
+  Container 3
+</div>
+
+<div id="container4" className={`container ${activeContainer === 'container4' ? 'active' : ''}`}>
+     <Image src="/side.png" width={300} height={500} alt='' /> 
+</div>
+</div>
+              
                </div>
             </div>
         </div>
+
+        
+  
+    
         </div>
   )
 }

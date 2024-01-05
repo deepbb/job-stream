@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import "./chat.css"
 
-const ChatPage = ({ socket, username, roomId }) => {
+const ChatPage = ({ socket, username, roomId,time }) => {
   const [currentMsg, setCurrentMsg] = useState("");
   const [chat, setChat] = useState([]);
 
@@ -33,35 +33,36 @@ const ChatPage = ({ socket, username, roomId }) => {
     <div className='chat_div'>
       <div className='chat_border'>
         <div style={{ marginBottom: "1rem" }}>
-          <p>
+          <p style={{marginLeft:50}}>
             Name: <b>{username}</b> and Room Id: <b>{roomId}</b>
           </p>
         </div>
         <div>
           {chat.map(({ roomId, user, msg, time }, key) => (
+            <>
             <div
               key={key}
-              className='
-                user == username
-                  ?chatProfileRight
-                  : chatProfileLeft'
+              className={user === username ? 'chatProfileRight': 'chatProfileLeft'}
             >
-              <span
+              {/* <span
                 className='chatProfileSpan'
-                style={{ textAlign: user == username ? "right" : "left" }}
+                style={{ textAlign: user === username ? "right" : "left" }}
               >
                 {user.charAt(0)}
-              </span>
-              <h3 style={{ textAlign: user == username ? "right" : "left" }}>
+              </span> */}
+              <span style={{ textAlign: user === username ? 'right' : 'left' }}>
                 {msg}
-              </h3>
+              </span>
+              <span className={{ textAlign: user === username ? 'right' : 'left' }}>{time}</span>
             </div>
+            
+             </>
           ))}
         </div>
-        <div>
-          <form onSubmit={(e) => sendData(e)}>
+        <div style={{display:'flex'}}>
+          <form onSubmit={(e) => sendData(e)} style={{display:'flex',width:'80%',marginLeft:'10%',alignItems:'center',justifyContent:'space-between'}}>
             <input
-              className='style.chat_input'
+              className='chat_input'
               type="text"
               value={currentMsg}
               placeholder="Type your message.."
