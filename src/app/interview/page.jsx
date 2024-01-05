@@ -17,7 +17,7 @@ export default function Interview() {
   const [menuName,setMenuname] = useState("Chat")
 
   var socket;
-  socket = io("https://job-stream-new.vercel.app/");
+  socket = io("https://job-stream-new.vercel.app/interview");
 
   console.log(userName);
 
