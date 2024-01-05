@@ -17,7 +17,7 @@ export default function Interview() {
   const [menuName,setMenuname] = useState("Chat")
 
   var socket;
-  socket = io("http://localhost:3001");
+  socket = io(process.env.PORT);
 
   console.log(userName);
 
