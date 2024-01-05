@@ -6,7 +6,7 @@ const httpServer = http.createServer();
 
 const io = new Server(httpServer, {
   cors: {
-    origin: "https://job-stream-new.vercel.app/interview", // Replace with your frontend URL
+    origin: "https://job-stream-omega.vercel.app/interview", // Replace with your frontend URL
     methods: ["GET", "POST"],
     allowedHeaders: ["my-custom-header"],
     credentials: true,
