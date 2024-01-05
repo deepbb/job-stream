@@ -6,7 +6,7 @@ const httpServer = http.createServer();
 
 const io = new Server(httpServer, {
   cors: {
-    origin: "https://job-stream-new.vercel.app/", // Replace with your frontend URL
+    origin: "https://job-stream-new.vercel.app", // Replace with your frontend URL
     methods: ["GET", "POST"],
     allowedHeaders: ["my-custom-header"],
     credentials: true,
@@ -30,7 +30,7 @@ io.on("connection", (socket) => {
     console.log("A user disconnected:", socket.id);
   });
 });
-const url = "https://job-stream-new.vercel.app/"
+const url = "https://job-stream-new.vercel.app"
 
 const PORT = url || 3001;
 httpServer.listen(PORT, () => {
