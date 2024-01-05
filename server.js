@@ -30,8 +30,9 @@ io.on("connection", (socket) => {
     console.log("A user disconnected:", socket.id);
   });
 });
+const url = "https://job-stream-new.vercel.app/"
 
-const PORT = process.env.PORT || 3001;
+const PORT = url || 3001;
 httpServer.listen(PORT, () => {
   console.log(`Socket.io server is running on port ${PORT}`);
 });
