@@ -17,7 +17,7 @@ export default function Interview() {
   const [menuName,setMenuname] = useState("Chat")
 
   var socket;
-  socket = io("https://job-stream-new.vercel.app/interview");
+  socket = io("http://localhost:3001");
 
   console.log(userName);
 
@@ -301,15 +301,15 @@ export default function Interview() {
 </div>
 
 <div id="container2" className={`container ${activeContainer === 'container2' ? 'active' : ''}`}>
-  Container 2
+<Image src="/oncall.png" width={300} height={600} alt='' /> 
 </div>
 
 <div id="container3" className={`container ${activeContainer === 'container3' ? 'active' : ''}`}>
-  Container 3
+    <Image src="/decesion.png" width={300} height={600} alt='' /> 
 </div>
 
 <div id="container4" className={`container ${activeContainer === 'container4' ? 'active' : ''}`}>
-     <Image src="/side.png" width={300} height={500} alt='' /> 
+     <Image src="/side.png" width={300} height={600} alt='' /> 
 </div>
 </div>
               
